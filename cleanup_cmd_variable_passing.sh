@@ -16,7 +16,7 @@ else
             echo "--------------------------------------------------------------"
             echo "The below-listed files are older than $rp days under this directory $directory"
             echo "--------------------------------------------------------------"
-            find "$directory" -maxdepth 5 -type f -iname "*" -mtime +"$rp" -exec ls {} \; | tee -a ./delcleanup.txt
+            find "$directory" -type f -iname "*" -mtime +"$rp" -exec ls {} \; | tee -a ./delcleanup.txt
             echo ""
             if [ -s "./delcleanup.txt" ]
             then

@@ -21,8 +21,8 @@ else
             if [ -s "./delcleanup.txt" ]
             then
                 echo "!...........................WARNING..............................!"
-                echo "We are going to start delete these above files with in 10sec......"
-                echo "if you don't need to exicute this purging task, please quite this script on here using with [ctrl + c]"
+                echo "We are going to start deleting these above files within 10sec......"
+                echo "if you don't need to execute this purging task, please quite this script on here using with [ctrl + c]"
                 echo "!...........................WARNING..............................!"
                 sleep 10;
                 echo ""

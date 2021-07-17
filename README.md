@@ -76,7 +76,7 @@ The below-listed files are older than 2000 days under this directory ./wordpress
 ./wordpress/wp-admin/images/comment-grey-bubble-2x.png
 
 !...........................WARNING..............................!
-We are going to start deleting these above files within 10sec......
+We are going to start deleting these above files within 10sec....
 if you don't need to execute this purging task, please quite this script on here using with [ctrl + c]
 !...........................WARNING..............................!
 

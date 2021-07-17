@@ -34,7 +34,7 @@ chmod +x cleanup*.sh
 ```sh
 yousaf@MSI:/mnt/c/Users/Downloads$ bash cleanup.sh
 Enter your directory path: ./wordpress                    <--------- Enter your absolute path of that directory you need
-Enter retension period: 2200                         <-------- Retention period
+Enter retension period: 2200                              <-------- Retention period
 --------------------------------------------------------------
 The below-listed files are older than 2200 days under this directory ./wordpress
 --------------------------------------------------------------
@@ -50,7 +50,7 @@ Deleting ./wordpress/wp-admin/images/comment-grey-bubble-2x.png
 ```
 #### _Method 2 - (Command-line value passing)_
 ```sh
-yousaf@MSI:/mnt/c/Users/Downloads$ bash cleanup_cmd_variable_passing.sh ./wordpresss/ 4000            <---------- First value should be absalute path and second one is the retetion period
+yousaf@MSI:/mnt/c/Users/Downloads$ bash cleanup_cmd_variable_passing.sh ./wordpresss/ 4000                          <---------- First value should be absalute path and second one is the retetion period
 --------------------------------------------------------------
 The below-listed files are older than 2200 days under this directory ./wordpress
 --------------------------------------------------------------
@@ -97,6 +97,7 @@ crontab -e
 
 ----
 ## Behind the Code
+_vim cleanup.sh_
 ```sh
 #!/bin/bash
 

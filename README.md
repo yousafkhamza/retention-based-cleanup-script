@@ -33,7 +33,7 @@ chmod +x cleanup*.sh
 #### _Method 1 - (Standard)_
 ```sh
 yousaf@MSI:/mnt/c/Users/Downloads$ bash cleanup.sh
-Enter your directory: ./wordpress                    <--------- Enter your absolute path of that directory you need
+Enter your directory path: ./wordpress                    <--------- Enter your absolute path of that directory you need
 Enter retension period: 2200                         <-------- Retention period
 --------------------------------------------------------------
 The below-listed files are older than 2200 days under this directory ./wordpress

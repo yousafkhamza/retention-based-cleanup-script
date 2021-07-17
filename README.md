@@ -1,4 +1,4 @@
-# Retention Based File-Cleanup Script ('Bash')
+# Retention Based File-Cleanup Script (Bash)
 [![Build](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 ---

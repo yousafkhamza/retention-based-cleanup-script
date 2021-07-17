@@ -77,7 +77,7 @@ The below-listed files are older than 2000 days under this directory ./wordpress
 
 !...........................WARNING..............................!
 We are going to start deleting these above files within 10sec....
-if you don't need to execute this purging task, please quite this script on here using with [ctrl + c]
+if you do not need to execute this purging task, please quite this script on here using with [ctrl + c]
 !...........................WARNING..............................!
 
 Deleting ./wordpress/wp-admin/css/farbtastic.css

@@ -4,14 +4,14 @@
 ---
 ## Description
 
-It's a bash script and it's used to clean files with retention period. So, it might be useful to clear large scale backup storing servers to delete these files with a particular retention period. I just built the same script with 3 way of working. 
+It's a bash script and it's used to clean files with retention period. So, it might be useful to clear large-scale backup storing servers to delete these files with a particular retention period. I just built the same script with 3 ways of working. 
 
 ----
 ## Feature
 - Easy to handle this script
 - Files removing with a retention period
 - Easy to schedule it as a cron job.
-- Easy to manage Backup/Log's on a linux machine (Cron Job/Manual)
+- Easy to manage Backup/Log's on a Linux machine (Cron Job/Manual)
 
 ---
 ## Pre-Requested Packages Installation 
@@ -19,7 +19,7 @@ It's a bash script and it's used to clean files with retention period. So, it mi
 ```sh
 sudo yum -y install git 
 ```
-> please note that this is a bash script were I used for linux based distros and servers. 
+> please note that this is a bash script where I used for Linux-based distros and servers. 
 
 ----
 ## How to get this script
@@ -33,7 +33,7 @@ chmod +x cleanup*.sh
 #### _Method 1 - (Standard)_
 ```sh
 $ bash cleanup.sh
-Enter your directory: ./wordpress                    <--------- Enter your absalute path of that directory you need
+Enter your directory: ./wordpress                    <--------- Enter your absolute path of that directory you need
 Enter retension period: 2200                         <-------- Retention period
 --------------------------------------------------------------
 The below-listed files are older than 2200 days under this directory ./wordpress
@@ -76,15 +76,15 @@ The below-listed files are older than 2000 days under this directory ./wordpress
 ./wordpress/wp-admin/images/comment-grey-bubble-2x.png
 
 !...........................WARNING..............................!
-We are going to start delete these above files with in 10sec......
-if you don't need to exicute this purging task, please quite this script on here using with [ctrl + c]
+We are going to start deleting these above files within 10sec......
+if you don't need to execute this purging task, please quite this script on here using with [ctrl + c]
 !...........................WARNING..............................!
 
 Deleting ./wordpress/wp-admin/css/farbtastic.css
 Deleting ./wordpress/wp-admin/images/browser.png
 Deleting ./wordpress/wp-admin/images/comment-grey-bubble-2x.png
 ```
-> Who you guys need to setup a automation backup/log removing as per the retention period please use script with [cronjob](https://www.tecmint.com/create-and-manage-cron-jobs-on-linux/).
+> Who you guys need to set up an automation backup/log removing as per the retention period please use the script with [cronjob](https://www.tecmint.com/create-and-manage-cron-jobs-on-linux/).
 
 ----
 ## Architecture
@@ -92,7 +92,7 @@ Deleting ./wordpress/wp-admin/images/comment-grey-bubble-2x.png
 ----
 ## Conclusion
 
-It's a simple bash script and it's used to clean files with retention period. So, maybe it's useful for who handled backup/log management on linux system enginners. Please let me know if you have facing any issues while using this script and please find the below contact details who needs to connect me.  
+It's a simple bash script and it's used to clean files with retention period. So, maybe it's useful for those who handled backup/log management on Linux system engineers. Please let me know if you have to face any issues while using this script and please find the below contact details of who needs to connect me.  
 
 ### ⚙️ Connect with Me 
 

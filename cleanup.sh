@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Enter your directory: " directory
+read -p "Enter your directory path: " directory
 read -p "Enter retension period: " rp
 
 rm -f ./delcleanup.txt

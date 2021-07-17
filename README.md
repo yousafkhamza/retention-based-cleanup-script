@@ -65,7 +65,7 @@ Deleting ./wordpress/wp-admin/images/browser.png
 Deleting ./wordpress/wp-admin/images/comment-grey-bubble-2x.png
 ```
 
-#### _Method 3 - (For Cronjob and Commandline without asking confirmation)_
+#### _Method 3 - (For Cronjob and Commandline script (without asking any confirmation before deleting))_
 ```sh
 yousaf@MSI:/mnt/c/Users/yousa/Downloads$ ./cleanup_for_cron.sh ./wordpress/ 2000
 --------------------------------------------------------------

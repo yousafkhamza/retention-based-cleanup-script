@@ -32,7 +32,7 @@ chmod +x cleanup*.sh
 ## How to use and sample using templates with output
 #### _Method 1 - (Standard)_
 ```sh
-$ bash cleanup.sh
+yousaf@MSI:/mnt/c/Users/Downloads$ bash cleanup.sh
 Enter your directory: ./wordpress                    <--------- Enter your absolute path of that directory you need
 Enter retension period: 2200                         <-------- Retention period
 --------------------------------------------------------------
@@ -50,7 +50,7 @@ Deleting ./wordpress/wp-admin/images/comment-grey-bubble-2x.png
 ```
 #### _Method 2 - (Command-line value passing)_
 ```sh
-$ bash cleanup_cmd_variable_passing.sh ./wordpresss/ 4000            <---------- First value should be absalute path and second one is the retetion period
+yousaf@MSI:/mnt/c/Users/Downloads$ bash cleanup_cmd_variable_passing.sh ./wordpresss/ 4000            <---------- First value should be absalute path and second one is the retetion period
 --------------------------------------------------------------
 The below-listed files are older than 2200 days under this directory ./wordpress
 --------------------------------------------------------------
@@ -67,7 +67,7 @@ Deleting ./wordpress/wp-admin/images/comment-grey-bubble-2x.png
 
 #### _Method 3 - (For Cronjob and Commandline script (without asking any confirmation before deleting))_
 ```sh
-yousaf@MSI:/mnt/c/Users/yousa/Downloads$ ./cleanup_for_cron.sh ./wordpress/ 2000
+yousaf@MSI:/mnt/c/Users/Downloads$ ./cleanup_for_cron.sh ./wordpress/ 2000
 --------------------------------------------------------------
 The below-listed files are older than 2000 days under this directory ./wordpress/
 --------------------------------------------------------------
@@ -83,6 +83,11 @@ if you don't need to execute this purging task, please quite this script on here
 Deleting ./wordpress/wp-admin/css/farbtastic.css
 Deleting ./wordpress/wp-admin/images/browser.png
 Deleting ./wordpress/wp-admin/images/comment-grey-bubble-2x.png
+```
+#### CronJob Example
+```sh
+crontab -e
+0 3 * * * /path/to/cleanup_for_cron.sh /path/to/location/ 30                    <---------------------- Run cleanup_for_cron.sh at 3 am every day
 ```
 > Who you guys need to set up an automation backup/log removing as per the retention period please use the script with [cronjob](https://www.tecmint.com/create-and-manage-cron-jobs-on-linux/).
 
